@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindy Travel</title>
+    <link rel="stylesheet" href="../styles/style.css">
+    <link rel="shortcut icon" href="../images/icon.png" type="image/x-icon">
+</head>
+<body>
+    <header class="navbar">
+        <nav class="navbar-menu">
+            <ul>
+                <li><a href="../../index.html"> Home </a></li>
+                <li><a href="./aboutUs.html"> About Us </a></li>
+                <li><a href="./contact.html"> Contact  </a></li>
+                <li><a href="./information.html"> More Information </a></li>
+                <li><a href="./benefitsTips.html"> Benefits and Tips</a></li>
+                <li><a href="#">Raffle</a></li>
+            </ul> 
+        </nav>
+        <img class="navbar-logo" src="../images/logo.png" alt="logo">
+    </header>
+        <h1>Raffle</h1>
+          <h3>You can collaborate and participate in a raffle for a 1-week trip</h3>
+          <main class="container-form">
+            <section class="container-map">
+                <h3 class="title-map">To participate you must be from Toronto, Canada</h3>
+                <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d369106.72679494927!2d-79.65824079514913!3d43.71789901030551!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89d4cb90d7c63ba5%3A0x323555502ab4c477!2sToronto%2C%20Ontario%2C%20Canad%C3%A1!5e0!3m2!1ses-419!2sar!4v1687465518966!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </section>
+            <form class="form">
+                <label for="firstname">First Name:</label><input size="30" type="text" name="firstname" placeholder="Your name" id="firstname">  <br>
+                <label for="lastname">Last Name:</label><input size="30"  type="text" name="lastname" placeholder="Your last name" id="lastname">  <br>
+                <label for="Country">Choose Country:</label>
+                    <select id="Country" name="Country">
+                        <option value="Canada">Canada</option>
+                        <option value="France">France</option>
+                        <option value="Spain">Spain</option>
+                        <option value="United States">United States</option>
+                        <option value="United Kingdom">United Kingdom</option>
+                    </select><br>
+                <label for="BirthDate">Choose Date: </label><input type="date" name="birthdate" id="BirthDate"><br>
+                <p>Payment Options:
+                    <br><br>
+                    <input type="radio" name="payment" value="Cash" checked>Cash 
+                    <br><input type="radio" name="payment" value="CreditCard">Credit Card
+                    <br><input type="radio" name="payment" value="DebitCard">Debit Card
+                  </p>
+                  <br>
+                    <label for="message">Message (Optional):</label><br><textarea name="message" rows="8" cols="30" id="message"></textarea>
+                    <p class="terms">
+                        <input type="checkbox" name="conditions" value="conditions" id="conditions">I accept terms and conditions
+                        <input type="submit" value="Send" class="send">
+                    </p>
+            </form>
+          </main>
+    <footer> Created by Alanis Lobato</footer>
+</body>
+</html>

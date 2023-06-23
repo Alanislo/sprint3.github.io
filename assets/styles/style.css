@@ -1,0 +1,516 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}  
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(226, 153, 165);
+    padding: 5px;
+}
+
+.navbar-logo {
+    order: 2;
+    height: 3rem;
+    width: 7rem;
+}
+.navbar-menu {
+    order: 1;
+}
+.navbar-menu ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+.navbar-menu li {
+    margin-right: 10px;
+}
+nav a:hover{
+    color: rgb(70, 68, 68);
+}
+.navbar-menu a {
+    text-decoration: none;
+    color: #f9f7f7;
+    padding: 5px;
+}  
+
+h1{
+    text-align: center;
+    color: rgb(109, 33, 130);
+}
+h3{
+    text-align: center;
+    color:rgb(226, 153, 165);
+}
+
+footer{
+    background-color: rgb(226, 153, 165);
+    color:azure;
+    text-align: center;
+    height: 6vh;
+}
+.image1{
+    height: 40vh;
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+}
+.container-p1{
+    display:flex ;
+    justify-content: center;
+    flex-direction: column;
+    width: 95vw;
+    margin: 1rem;
+}
+.flex-containerp1{
+    display: flex;
+    justify-content: center;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 4rem;
+}
+.parrafo1{
+    font-size: 17px; 
+    margin: 3rem;
+}
+.flex-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90vw;
+    margin: 1em;
+}
+.flex-items{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90vw;
+    padding: 1em;
+    align-items: center;
+    align-self: center;
+}
+.parrafo2{
+    color: rgb(109, 33, 130);
+    font-size: 18px;
+    width: 50vh;
+    text-align: center;
+}
+.image2{
+    height: 28vh;
+    width: 18vw;
+    object-fit: cover;
+}
+.img3{
+    height:15rem;
+    width: 20rem;
+    border:1px solid rgb(226, 153, 165);
+    border-style:dotted;
+}
+.flex-container2{
+    width: 100vw;
+    height: 60vh;
+    text-align: center;
+    padding: 2em;
+}
+.img4{
+    height: 38vh;
+    width: 30vw;
+    object-fit: cover;
+}
+.parrafo3{
+    color: rgb(109, 33, 130);
+    font-size: 17px;
+    padding-top: 15px;
+}
+.flex-container3{
+    height: 20vh;
+    width: 100vw;
+    text-align: center;
+    padding: 1em;
+}
+.contact{
+    text-decoration: none;
+    color: rgb(226, 153, 165);
+    padding: 15px;
+}
+.contact:hover{
+    color: rgb(128, 57, 148);
+}
+.flex-table{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    height: 80vh;
+}
+table{
+    display: flex;
+    align-items: center;
+
+}
+th, td{
+   border:2px solid rgb(128, 57, 148) ;
+   padding: 40px;
+   background-color: rgb(255, 235, 238);
+   color: rgb(81, 19, 98);
+}
+th{
+    font-size: 18px;
+}
+.img-page5{
+    height: 16rem;
+    width: 16rem;
+    padding: 5px;
+}
+.flex-list {
+    height: 80vh;
+}
+
+.flex-images{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+}
+ul{
+    padding: 15px;
+}
+ol{
+    width: 60vw;
+    padding: 15px;
+    text-align: left;
+}
+.list-p5{
+    padding: 10px;
+}
+.item-list{
+    color: rgb(226, 153, 165);
+    font-size: 17px;
+}
+li{
+    font-size: 17px;
+    color: rgb(81, 19, 98);
+    padding: 3px;
+}
+.container-form{
+    display: flex;
+    flex-direction: row;
+    width: 95vw;
+    justify-content: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    color: rgb(109, 33, 130);
+}
+
+.conditions{
+    display: flex;
+    flex-direction: row;
+}
+.terms{
+    color: rgb(226, 153, 165);
+    padding: 2px;
+}
+.send{
+    border: 2px solid rgb(226, 153, 165);
+    color:rgb(255, 255, 255); 
+    border-radius: 3px;
+    padding: 5px;
+    background-color: rgb(226, 153, 165);
+    font-size: 16px;
+}
+.send:hover{
+    background-color: rgb(109, 33, 130);
+    font-size: 17px;
+    color: white;
+    border: 2px solid rgb(109, 33, 130);
+
+}
+.container-map{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    width: 45vw;
+    height: 80vh;
+}
+.map {
+    width: 30rem;
+    height: 20rem;
+
+}
+.title-map{
+    padding: 15px;
+}
+/*Mobile*/
+@media only screen and (min-width:320px) and (max-width:767px){
+    .navbar{
+        height: 30vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .navbar ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 3px;
+    }
+    .navbar-logo{
+        height: 3rem;
+        width: 7rem;
+    }
+    .image1{
+        width: 20rem;
+        height: 15rem;
+        object-fit: contain;
+    }
+    .container1{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+    }
+    .image2{
+        height: 12rem;
+        width: 14rem;
+        object-fit: cover;
+    }
+    .flex-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .flex-items{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: center;
+    }
+    .img3{
+        width: 12rem;
+        height: 12rem;
+        object-fit: cover;
+    }
+    .parrafo2{
+        font-size: 1rem;
+        text-align: center;
+        width: 17rem;
+        padding: 5px;
+    }
+    .contact{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .img4{
+        width: 14rem;
+        height: 13rem;
+        display: flex;
+        object-fit: cover;
+    }
+    .flex-container2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: center;
+    }
+    .contact-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .flex-table{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        align-self: center;
+    }
+    table{
+        display: flex;
+        align-items: center;
+        align-self: center;
+    }
+    th, td{
+        padding: 1rem;
+     }
+     .flex-images{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+     }
+     .img-page5{
+        width: 12rem;
+        height: 10rem;
+     }
+     ol,ul{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 1px;
+     }
+     .list-p5{
+        font-size: 13px;
+        padding: 1px;
+     }
+     .item-list{
+        font-size: 14px;
+     }
+     .flex-list{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        align-items: center;
+     }
+     .container-form{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        align-self: center;
+        justify-content: center;
+        height: 60rem;
+     }
+     .map{
+        width: 13rem;
+        height: 13rem;
+     }
+     .title-map{
+        font-size: 16px;
+        width: 13rem;
+     }
+     .terms{
+       text-align: center;
+     }
+}
+                        /*tablet*/
+@media only screen and (min-width:768px) and (max-width:1024px){
+    .navbar{
+        height: 32vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column-reverse;
+    }
+    .navbar ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        padding: 5px;
+    }
+    .navbar-logo{
+        height: 3rem;
+        width: 7rem;
+    }
+    .container1{
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+    }
+    .image2{
+        height: 15rem;
+        width: 19rem;
+        object-fit: cover;
+    }
+    .flex-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .flex-items{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: center;
+    }
+    .img3{
+        width: 14rem;
+        height: 14rem;
+        object-fit: cover;
+    }
+    .parrafo2{
+        font-size: 1rem;
+        text-align: center;
+        width: 17rem;
+        padding: 5px;
+    }
+    .img4{
+        width: 16rem;
+        height: 16rem;
+        display: flex;
+        object-fit: cover;
+    }
+    .flex-container2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        align-self: center;
+    }
+    th, td{
+        padding: 2rem;
+     }
+     .flex-images{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+     }
+     .img-page5{
+        width: 13rem;
+        height: 10rem;
+        padding: 10px;
+     }
+     ol,ul{
+        text-align: center;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding: 4px;
+     }
+     .list-p5{
+        font-size: 14px;
+        padding: 1px;
+     }
+     .item-list{
+        font-size: 16px;
+     }
+     .flex-list{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-self: center;
+        align-items: center;
+     }
+     .container-form{
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        align-self: center;
+        justify-content: center;
+        height: 60rem;
+     }
+     .map{
+        width: 16rem;
+        height: 16rem;
+     }
+     .title-map{
+        font-size: 17px;
+        width: 15rem;
+     }
+     .terms{
+       text-align: center;
+     }
+}
